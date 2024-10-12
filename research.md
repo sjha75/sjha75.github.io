@@ -4,48 +4,23 @@ permalink: /research/
 title: Research
 ---
 
-Describe your research interests here.
+My research interests are in statistical methods, computational algorithms, and machine learning. See below for the research projects I've worked on and am currently working on. 
 
-<h2>Publications</h2>
-<ul>
-	<li>
-		<b>"Paper title #1"</b><br>
-		<i>List of authors</i><br>
-		Conference, Year<br>
-		<a href=""><div class="color-button">pdf</div></a><a href=""><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
-	</li><br>
-	<li>
-		<b>"Paper title #1"</b><br>
-		<i>List of authors</i><br>
-		Conference, Year<br>
-		<a href=""><div class="color-button">pdf</div></a><a href=""><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
-	</li><br>
-</ul>
 
 <h2>Research Projects</h2>
 <ul>
 	<li>
-		<b>Project title</b><br>
-		University, Duration<br>
-		<i>Other details such as advisor's name may go here</i><br>
-		<a href=""><div class="color-button">report</div></a><a href=""><div class="color-button">code</div></a>
+		<b>Cumulant Truncation Methods for Moment Closure</b><br>
+		Georgia Institute of Technology, 2023 - present<br>
+		<i>Advisor: Florian Schaefer</i><br>
+		<a href=""><div class="color-button">poster</div></a>
 	</li><br>
 	<li>
-		<b>Project title</b><br>
-		University, Duration<br>
-		<i>Other details such as advisor's name may go here</i><br>
-		<a href=""><div class="color-button">report</div></a><a href=""><div class="color-button">code</div></a>
+		<b>Neural Networks for Transfer Function Approximation</b><br>
+		Institute of Pure and Applied Mathematics at UCLA, 2024<br>
+		<i>Mentors: Susana Serna, Chunyang Liao, Srilakshmi Pattabiraman</i><br>
+		<i>Co-authors: Shaymaa Mahmoud, Michelle Bang, Emre Isik</i><br>
+		<a href=""><div class="color-button">report</div></a><a href=""><div class="color-button">slides</div></a><a href=""><div class="color-button">poster</div></a> 
 	</li><br>
 </ul>
 
-<h2>Research Implementations</h2>
-<ul>
-	<li>
-		<b>Title #1</b>: Brief description of this research implementation.<br>
-		<a href=""><div class="color-button">paper</div></a><a href=""><div class="color-button">report</div></a><a href=""><div class="color-button">code</div></a>
-	</li><br>
-	<li>
-		<b>Title #2</b>: Brief description of this research implementation.<br>
-		<a href=""><div class="color-button">paper</div></a><a href=""><div class="color-button">report</div></a><a href=""><div class="color-button">code</div></a>
-	</li><br>
-</ul>
