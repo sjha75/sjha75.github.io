@@ -20,7 +20,7 @@ My research interests are in statistical methods, computational algorithms, and 
 		Institute of Pure and Applied Mathematics at UCLA, 2024<br>
 		<i>Mentors: Susana Serna, Chunyang Liao, Srilakshmi Pattabiraman</i><br>
 		<i>Co-authors: Shaymaa Mahmoud, Michelle Bang, Emre Isik</i><br>
-		<a href=""><div class="color-button">report</div></a><a href=""><div class="color-button">slides</div></a><a href=""><div class="color-button">poster</div></a> 
+		<a href="/research/AnalogDevicesFinalReportRIPS2024.pdf"><div class="color-button">report</div></a><a href="/research/AnalogDevicesFinalPresentationRIPS2024.pdf"><div class="color-button">slides</div></a><a href=""><div class="color-button">poster</div></a> 
 	</li><br>
 </ul>
 

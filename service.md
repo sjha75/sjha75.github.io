@@ -13,13 +13,13 @@ I am deeply committed to community service, particularly in promoting STEM educa
 		<b>Junior STEM</b><br>
 		Advisor, President<br>
 		<i>Georgia Tech</i><br>
-		<a href=""><div class="color-button">website</div></a>
+		<a href="https://juniorstem.wordpress.com/"><div class="color-button">website</div></a>
 	</li><br>
 	<li>
 		<b>Association for Women in Mathematics</b><br>
 		Outreach chair<br>
 		<i>Georgia Tech</i><br>
-		<a href=""><div class="color-button">website</div></a>
+		<a href="https://gatech.campuslabs.com/engage/organization/awm"><div class="color-button">website</div></a>
 	</li><br>
 </ul>
 
