@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-{% include image.html url="/images/profile.jpg" caption="A sassy caption here" width=300 align="right" %}
+{% include image.html url="/images/profile.jpg" caption="Me in Scotland!" width=300 align="right" %}
 
-Describe yourself here. Dummy text ahead.
+I am an undergraduate at Georgia Tech, studying Mathematics and Computer Science, with an expected graduation in May 2025. I'm passionate about applying mathematical models and machine learning techniques to solve complex, real-world problems. My research interests are in statistical methods, computational algorithms, and machine learning. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I currently do research under Florian Schaefer, where I develop cumulant truncation methods and implementing Sum of Squares projection techniques using semidefinite programming to improve modeling and approzimations in dynamic systems. This past summer I did research at the Institute for Pure and Applied Mathematics at UCLA, where I developed neural network architectures to enhance the vector fitting algorithm's performance in noisy environments, combining traditional methods with deep learning for improved accuracy.  Take a look at the <a href="/research/">Research</a> tab for my information about the work I've done.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+I am best reached by email. 
 
-Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
