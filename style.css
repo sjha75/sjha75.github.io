@@ -116,11 +116,6 @@ h1 { font-size: clamp(2.9rem, 6.5vw, 4rem); font-weight: 500; letter-spacing: -0
 .links svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 
 .bio p { margin: 0 0 14px; max-width: 62ch; }
-.interests { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 20px 0 0; }
-.interests li {
-  padding: 3px 12px; border-radius: 999px; font-size: 0.88rem;
-  background: var(--accent-soft); color: var(--accent);
-}
 
 /* ---------- Sections ---------- */
 .block { padding-top: 56px; padding-bottom: 8px; }
