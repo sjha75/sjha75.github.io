@@ -1,21 +1,241 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shreya Jha</title>
+  <meta name="description" content="Shreya Jha — Ph.D. student in Computer Science at NYU Courant working on machine learning and numerical methods for stochastic dynamical systems.">
+  <meta property="og:title" content="Shreya Jha">
+  <meta property="og:description" content="Ph.D. student at NYU Courant · machine learning for stochastic dynamical systems">
+  <meta property="og:image" content="https://sjha75.github.io/assets/shreya.jpg">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // Apply saved light/dark choice before the page paints
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
 
-<div class="home">
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#top">Shreya Jha</a>
+      <nav class="nav" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="assets/Shreya_Jha_CV.pdf" target="_blank" rel="noopener">CV</a>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
 
-<p>I'm Shreya Jha, and I am a senior undergraduate at the Georgia Institute of Technology. I currently do research under Dr. Florian Schaefer on higher order statistics using semidefinite programming and information geometry principles.<br><br>
+  <main id="top">
 
-I maintain a list of research projects, posters, and, in the future, publications under the <a href="/research/">Research</a> tab. I'm also passionate about service, which you can read more about under the <a href="/service/">Service</a> tab.<br><br>
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="wrap hero">
+      <figure class="portrait">
+        <img src="assets/shreya.jpg" alt="Shreya Jha smiling at the edge of a canyon" width="720" height="900">
+      </figure>
 
-To see my professional and academic experiences, you can have a look at my <a href="/cv">curriculum vitae</a>. If you would like, you can read a bit more <a href="/about">about me</a>.</p>
+      <div class="intro">
+        <p class="eyebrow">Ph.D. Student · Computer Science</p>
+        <h1>Shreya Jha</h1>
+        <p class="affil">Courant Institute of Mathematical Sciences, New York University</p>
 
-</div>
+        <ul class="links">
+          <li><a href="mailto:sj4964@nyu.edu">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Email</a></li>
+          <li><a href="https://scholar.google.com/citations?user=ApOrQ4sAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 9l10 6 10-6-10-6Z"/><path d="M6 11.5V16c0 1.7 2.7 3 6 3s6-1.3 6-3v-4.5"/></svg>Google Scholar</a></li>
+          <li><a href="https://www.linkedin.com/in/shreya-jha03" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg>LinkedIn</a></li>
+          <li><a href="https://github.com/sjha75" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>GitHub</a></li>
+          <li><a href="assets/Shreya_Jha_CV.pdf" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5Z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg>CV</a></li>
+        </ul>
 
-<h2>Updates</h2>
-<div class="updates" style="height: 10em; overflow-y: scroll;">
-<ul>
-<li><i>October, 2024</i> - I will present a poster at the SIAM Conference on Mathematics of Data Science (MDS24)</li>
-</ul>
+        <div class="bio">
+          <p>
+            I'm a second-year Ph.D. student in Computer Science at NYU's Courant Institute, advised by
+            <a href="https://cims.nyu.edu/~pehersto/" target="_blank" rel="noopener">Benjamin Peherstorfer</a>.
+            I work broadly in computational science, at the intersection of machine learning and numerical methods.
+          </p>
+          <p>
+            Lately I've been building generative models that learn the dynamics of stochastic systems directly
+            from trajectory data, enabling fast ensemble predictions of chaotic and turbulent systems. I'm also
+            interested in <em>model reduction</em> and <em>data-driven surrogate modeling</em> for fast simulation and
+            prediction of complex systems.
+          </p>
+          <p>
+            Before NYU, I studied mathematics and computer science at Georgia Tech. My work is supported by an
+            NSF Graduate Research Fellowship.
+          </p>
+        </div>
 
-</div>
+        <ul class="interests" aria-label="Research interests">
+          <li>Model reduction</li>
+          <li>Generative modeling</li>
+          <li>ML for stochastic dynamical systems</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ NEWS ============ -->
+    <section class="wrap block news-block" aria-labelledby="news-h">
+      <h2 id="news-h" class="section-title">News</h2>
+      <ul class="news">
+        <li><span class="date">2026</span><span><em>First-Order Trajectory Matching</em> accepted at <strong>NeurIPS 2026</strong>.</span></li>
+        <li><span class="date">2026</span><span><em>Solver to System</em> accepted at a NeurIPS 2026 workshop.</span></li>
+        <li><span class="date">2026</span><span>Awarded the <strong>NSF Graduate Research Fellowship</strong>.</span></li>
+        <li><span class="date">2025</span><span>Started my Ph.D. at NYU Courant.</span></li>
+      </ul>
+    </section>
+
+    <!-- ============ PUBLICATIONS ============ -->
+    <section id="publications" class="wrap block" aria-labelledby="pubs-h">
+      <h2 id="pubs-h" class="section-title">Publications</h2>
+      <p class="section-note"><sup>*</sup> denotes equal contribution. See also <a href="https://scholar.google.com/citations?user=ApOrQ4sAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>.</p>
+
+      <ol class="pubs">
+        <li class="pub">
+          <span class="venue venue-main">NeurIPS 2026</span>
+          <div>
+            <h3>First-Order Trajectory Matching: Fast Ensemble Predictions of Chaotic, Turbulent, Stochastic Systems</h3>
+            <p class="authors"><b>S. Jha</b>, T. Schorlepp, N. Geissler, J. Berman, B. Peherstorfer</p>
+            <p class="pub-links"><a href="https://arxiv.org/abs/2606.11138" target="_blank" rel="noopener">arXiv</a> · <a href="https://github.com/sjha75/FTM" target="_blank" rel="noopener">Code</a></p>
+          </div>
+        </li>
+        <li class="pub">
+          <span class="venue">Preprint</span>
+          <div>
+            <h3>One-Step Generative Surrogate Models via Block-Triangular Joint Drifting</h3>
+            <p class="authors">N. Geissler, <b>S. Jha</b>, R. Baptista, B. Peherstorfer</p>
+            <p class="pub-links"><span class="muted">Submitted to SIAM J. Sci. Comput.</span> · <a href="https://arxiv.org/abs/2609.26435" target="_blank" rel="noopener">arXiv</a></p>
+          </div>
+        </li>
+        <li class="pub">
+          <span class="venue">Workshop</span>
+          <div>
+            <h3>Solver to System: LLM Reasoning Across Representations and Execution in Scientific Simulation</h3>
+            <p class="authors">E. Berman<sup>*</sup>, R. Subramanian<sup>*</sup>, <b>S. Jha</b>, L. Jagarapu, R. Ranganath</p>
+            <p class="pub-links"><span class="muted">NeurIPS 2026 Workshop</span> · <a href="https://neurips.cc/virtual/2026/166482" target="_blank" rel="noopener">NeurIPS page</a></p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <!--
+      To add a figure: put the file in assets/projects/ with the name used below
+      (e.g. moment-closure.gif). Until the file exists, a placeholder is shown.
+    -->
+    <section id="projects" class="wrap block" aria-labelledby="proj-h">
+      <h2 id="proj-h" class="section-title">Projects</h2>
+
+      <div class="projects">
+
+        <article class="project">
+          <div class="media" data-label="FTM ensemble rollout">
+            <img src="assets/projects/ftm.gif" alt="Ensemble predictions of 2D turbulence generated by First-Order Trajectory Matching" loading="lazy">
+          </div>
+          <div class="project-body">
+            <p class="kicker">NYU Courant · 2025–present</p>
+            <h3>First-Order Trajectory Matching</h3>
+            <p>
+              A method for learning fast generative surrogate models of stochastic systems directly from trajectory
+              data. It generates ensembles with a single network evaluation per time step. On stochastically forced 2D
+              turbulence, it cuts energy and enstrophy errors 3–4× compared with an autoregressive diffusion model
+              that needs 100 evaluations per step.
+            </p>
+            <p class="project-links"><a href="https://arxiv.org/abs/2606.11138" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/sjha75/FTM" target="_blank" rel="noopener">Code</a></p>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="media" data-label="Solver2System">
+            <img src="assets/projects/solver2system.png" alt="Overview of the Solver2System dataset" loading="lazy">
+          </div>
+          <div class="project-body">
+            <p class="kicker">NYU · 2026</p>
+            <h3>Solver2System</h3>
+            <p>
+              A dataset of 32 PDE solvers with aligned code, equations, and trajectories, plus controlled physical
+              defects. We use it to test whether large language models can find and diagnose physical errors in
+              scientific simulation code.
+            </p>
+            <p class="project-links"><a href="https://neurips.cc/virtual/2026/166482" target="_blank" rel="noopener">Paper</a></p>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="media" data-label="Moment closures">
+            <img src="assets/projects/moment-closure.gif" alt="High-order moment closure tracking a reference solution" loading="lazy">
+          </div>
+          <div class="project-body">
+            <p class="kicker">Georgia Tech · 2023–2025</p>
+            <h3>Stable High-Order Moment Closures</h3>
+            <p>
+              Reduced models that evolve a few statistics of a stochastic system and track reference solutions more
+              closely than the standard Gaussian closure. I designed stabilizing steps using semidefinite programming
+              and exponential damping of higher-order cumulants, which kept closures stable up to 12th order.
+            </p>
+            <p class="project-links"><a href="research/cumulant_truncation_poster.pdf" target="_blank" rel="noopener">Poster</a></p>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="media" data-label="Motor dynamics">
+            <img src="assets/projects/motor.png" alt="Learned transfer function of an electric motor" loading="lazy">
+          </div>
+          <div class="project-body">
+            <p class="kicker">IPAM RIPS at UCLA · Analog Devices · Summer 2024</p>
+            <h3>Learning Electric-Motor Dynamics</h3>
+            <p>
+              As project manager of a four-student team, I worked on learning the input–output dynamics of motors
+              from noisy measurements with physics-structured (rational) neural networks. On noisy simulated data,
+              this reduced error 5–8× compared with the standard fitting method.
+            </p>
+            <p class="project-links"><a href="research/AnalogDevicesFinalReportRIPS2024.pdf" target="_blank" rel="noopener">Report</a> · <a href="research/AnalogDevicesFinalPresentationRIPS2024.pdf" target="_blank" rel="noopener">Slides</a></p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span>© 2026 Shreya Jha</span>
+      <span>Last updated October 2026</span>
+    </div>
+  </footer>
+
+  <script>
+    // Light / dark toggle
+    document.querySelector('.theme-toggle').addEventListener('click', function () {
+      var root = document.documentElement;
+      var dark = root.dataset.theme
+        ? root.dataset.theme === 'dark'
+        : window.matchMedia('(prefers-color-scheme: dark)').matches;
+      root.dataset.theme = dark ? 'light' : 'dark';
+      try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+    });
+
+    // Show a placeholder for any project figure that hasn't been added yet
+    document.querySelectorAll('.media img').forEach(function (img) {
+      function fail() { img.closest('.media').classList.add('is-empty'); }
+      if (img.complete && img.naturalWidth === 0) fail();
+      img.addEventListener('error', fail);
+    });
+  </script>
+</body>
+</html>
