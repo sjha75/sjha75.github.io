@@ -169,6 +169,7 @@ h1 { font-size: clamp(2.9rem, 6.5vw, 4rem); font-weight: 500; letter-spacing: -0
 .media a { display: block; width: 100%; height: 100%; cursor: zoom-in; }
 .media a img { background: #fff; }
 .media-video { background: #12101a; }
+.media-plot { background: #fff; }
 .media video { width: 100%; height: 100%; object-fit: cover; display: block; }
 
 /* Placeholder shown until a figure is added */
