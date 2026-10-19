@@ -21,7 +21,6 @@ Until a file exists, a placeholder is shown.
 | First-Order Trajectory Matching | `assets/projects/ftm.mp4` + `ftm.webm` (video, already added) |
 | Solver2System | `assets/projects/solver2system.png` |
 | Moment closures | `assets/projects/moment-closure.gif` |
-| Electric-motor dynamics | `assets/projects/motor.png` |
 
 To use a different file type, change the `src` of the matching `<img>` in `index.html`.
 Keep GIFs under ~5 MB so the page loads quickly. Large GIFs are better converted to looping MP4/WebM video, as done for FTM:
