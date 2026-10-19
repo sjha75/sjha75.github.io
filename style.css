@@ -23,15 +23,15 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #3b1a24; --surface: #47222e; --tint: #512a37; --text: #f6ebef;
-    --muted: #cdb2bd; --line: #633646; --accent: #f0afc6; --accent-2: #f58cb9;
-    --accent-soft: #5e3040; color-scheme: dark;
+    --bg: #321620; --surface: #3e1d28; --tint: #472431; --text: #f6ebef;
+    --muted: #cdb2bd; --line: #57303e; --accent: #f0afc6; --accent-2: #f58cb9;
+    --accent-soft: #532a39; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #3b1a24; --surface: #47222e; --tint: #512a37; --text: #f6ebef;
-  --muted: #cdb2bd; --line: #633646; --accent: #f0afc6; --accent-2: #f58cb9;
-  --accent-soft: #5e3040; color-scheme: dark;
+  --bg: #321620; --surface: #3e1d28; --tint: #472431; --text: #f6ebef;
+  --muted: #cdb2bd; --line: #57303e; --accent: #f0afc6; --accent-2: #f58cb9;
+  --accent-soft: #532a39; color-scheme: dark;
 }
 
 /* ---------- Base ---------- */
