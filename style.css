@@ -14,7 +14,7 @@
   --accent-2:    #a8336a;   /* mature magenta */
   --accent-soft: #f1dbe3;
 
-  --serif: "Fraunces", Georgia, "Times New Roman", serif;
+  --serif: "EB Garamond", Garamond, Georgia, "Times New Roman", serif;
   --sans:  "Source Sans 3", -apple-system, "Segoe UI", Roboto, sans-serif;
   --max:   1040px;
   --radius: 14px;
@@ -60,7 +60,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; line-height: 1.2; marg
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; height: 64px; }
 .wordmark {
-  font-family: var(--serif); font-size: 1.25rem; font-weight: 500;
+  font-family: var(--serif); font-size: 1.4rem; font-weight: 500;
   color: var(--text); text-decoration: none;
 }
 .nav { display: flex; align-items: center; gap: 26px; }
@@ -101,7 +101,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; line-height: 1.2; marg
   margin: 4px 0 10px; font-size: 0.82rem; font-weight: 600;
   letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-2);
 }
-h1 { font-size: clamp(2.6rem, 6vw, 3.6rem); font-weight: 500; letter-spacing: -0.01em; }
+h1 { font-size: clamp(2.9rem, 6.5vw, 4rem); font-weight: 500; letter-spacing: -0.01em; }
 .affil { margin: 8px 0 22px; color: var(--muted); font-size: 1.05rem; }
 
 .links { list-style: none; display: flex; flex-wrap: wrap; gap: 10px; padding: 0; margin: 0 0 28px; }
@@ -126,7 +126,7 @@ h1 { font-size: clamp(2.6rem, 6vw, 3.6rem); font-weight: 500; letter-spacing: -0
 .block { padding-top: 56px; padding-bottom: 8px; }
 .section-title {
   display: flex; align-items: center; gap: 16px;
-  font-size: 1.75rem; margin-bottom: 24px;
+  font-size: 2rem; margin-bottom: 24px;
 }
 .section-title::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 .section-note { margin: -12px 0 20px; color: var(--muted); font-size: 0.92rem; }
@@ -134,7 +134,7 @@ h1 { font-size: clamp(2.6rem, 6vw, 3.6rem); font-weight: 500; letter-spacing: -0
 /* News */
 .news { list-style: none; padding: 0; margin: 0; }
 .news li { display: grid; grid-template-columns: 76px 1fr; gap: 16px; padding: 7px 0; }
-.news .date { font-family: var(--serif); color: var(--accent-2); font-variant-numeric: tabular-nums; }
+.news .date { font-family: var(--serif); font-size: 1.08rem; color: var(--accent-2); font-variant-numeric: tabular-nums; }
 
 /* Publications */
 .pubs { list-style: none; padding: 0; margin: 0; display: grid; gap: 4px; }
@@ -150,7 +150,7 @@ h1 { font-size: clamp(2.6rem, 6vw, 3.6rem); font-weight: 500; letter-spacing: -0
   white-space: nowrap;
 }
 .venue-main { background: var(--accent); border-color: var(--accent); color: var(--bg); }
-.pub h3 { font-size: 1.13rem; font-weight: 500; margin-bottom: 4px; }
+.pub h3 { font-size: 1.25rem; font-weight: 500; margin-bottom: 4px; }
 .authors { margin: 0; color: var(--muted); font-size: 0.97rem; }
 .authors b { color: var(--text); font-weight: 600; }
 .pub-links { margin: 4px 0 0; font-size: 0.93rem; }
@@ -177,12 +177,12 @@ h1 { font-size: clamp(2.6rem, 6vw, 3.6rem); font-weight: 500; letter-spacing: -0
 .media.is-empty::after {
   content: attr(data-label);
   position: absolute; left: 16px; bottom: 12px;
-  font-family: var(--serif); font-style: italic; font-size: 0.95rem; color: var(--accent);
+  font-family: var(--serif); font-style: italic; font-size: 1.05rem; color: var(--accent);
 }
 
 .project-body { padding: 20px 22px 22px; display: flex; flex-direction: column; flex: 1; }
 .kicker { margin: 0 0 6px; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-2); }
-.project h3 { font-size: 1.3rem; margin-bottom: 10px; }
+.project h3 { font-size: 1.5rem; margin-bottom: 10px; }
 .project-body p { margin: 0 0 12px; font-size: 0.98rem; }
 .project-links { margin-top: auto !important; font-weight: 600; }
 
