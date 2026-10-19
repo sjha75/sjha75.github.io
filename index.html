@@ -155,10 +155,10 @@
             <p class="kicker">NYU Courant</p>
             <h3>First-Order Trajectory Matching</h3>
             <p>
-              A method for learning fast generative surrogate models of stochastic systems directly from trajectory
-              data. It generates ensembles with a single network evaluation per time step. On stochastically forced 2D
-              turbulence, it cuts energy and enstrophy errors 3–4× compared with an autoregressive diffusion model
-              that needs 100 evaluations per step.
+              Predicting chaotic and turbulent systems means running large ensembles, and each simulation is expensive.
+              FTM learns a generative surrogate straight from trajectory data that advances the whole ensemble with a
+              single network evaluation per time step. On 2D turbulence, it is both faster and more accurate than
+              diffusion-based surrogates.
             </p>
             <p class="project-links"><a href="https://arxiv.org/abs/2606.11138" target="_blank" rel="noopener">Paper</a> · <a href="https://github.com/sjha75/FTM" target="_blank" rel="noopener">Code</a></p>
           </div>
@@ -174,9 +174,10 @@
             <p class="kicker">NYU Courant</p>
             <h3>Solver2System</h3>
             <p>
-              A dataset of 32 PDE solvers with aligned code, equations, and trajectories, plus controlled physical
-              defects. We use it to test whether large language models can find and diagnose physical errors in
-              scientific simulation code.
+              Solver2System tests whether LLMs can recognize when scientific simulation code is physically wrong. It pairs
+              32 PDE solvers with their equations, trajectories, and plain-language descriptions, along with versions
+              containing planted physical bugs. We use it to evaluate whether models can catch and diagnose these errors,
+              both by reading the code and by running it.
             </p>
             <p class="project-links"><a href="https://neurips.cc/virtual/2026/166482" target="_blank" rel="noopener">Paper</a></p>
           </div>
@@ -190,9 +191,10 @@
             <p class="kicker">Georgia Tech</p>
             <h3>Stable High-Order Moment Closures</h3>
             <p>
-              Reduced models that evolve a few statistics of a stochastic system and track reference solutions more
-              closely than the standard Gaussian closure. I designed stabilizing steps using semidefinite programming
-              and exponential damping of higher-order cumulants, which kept closures stable up to 12th order.
+              Moment closures approximate a stochastic system by tracking just a few of its statistics, but higher-order
+              closures tend to blow up. I developed stabilization techniques, based on semidefinite programming and
+              damping of higher-order cumulants, that keep closures stable up to 12th order and track reference solutions
+              better than the standard Gaussian closure.
             </p>
             <p class="project-links"><a href="research/cumulant_truncation_poster.pdf" target="_blank" rel="noopener">Poster</a></p>
           </div>
